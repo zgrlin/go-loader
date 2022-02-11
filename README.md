@@ -11,3 +11,4 @@ Auto-runs uploaded builds with a Docker Container
 
 # Default
 Application default run http://localhost:8080 and support Gin Framework
+Output support JSON format
