@@ -18,6 +18,8 @@ Application default run http://localhost:8080 and support Gin Framework
 
 Output supported JSON format
 
+Supported Logging
+
 # Functions
 saveFileHandler - save build file
 
