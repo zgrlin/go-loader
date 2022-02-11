@@ -15,7 +15,11 @@ Output support JSON format
 
 # Functions
 saveFileHandler - save build file
+
 status - Check Docker Containers and report
+
 home - Gin Framework default router
+
 build - New Container build function
+
 upload - staticFS (use default upload folder)
