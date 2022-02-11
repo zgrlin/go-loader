@@ -12,3 +12,10 @@ Auto-runs uploaded builds with a Docker Container
 # Default
 Application default run http://localhost:8080 and support Gin Framework
 Output support JSON format
+
+# Functions
+saveFileHandler - save build file
+status - Check Docker Containers and report
+home - Gin Framework default router
+build - New Container build function
+upload - staticFS (use default upload folder)
