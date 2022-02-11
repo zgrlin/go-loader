@@ -1,0 +1,11 @@
+{{ template "header.html" .}}
+  <p>
+  <h3>Please select your build</h3>
+  <h5>Note: Only accepted ZIP file</h5>
+  <form action="http://localhost:8080/upload/" enctype="multipart/form-data" method="POST"> 
+    <input type="file" name="file" accept="*" />
+    <button type="submit">submit</button>
+  </form>
+  </p>
+  <button onclick="window.location.href='http://localhost:8080/run'">Build Now!</button>
+{{ template "footer.html" .}}
